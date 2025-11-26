@@ -26,6 +26,7 @@ dependencies {
     // Kotlin dependencies
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     // Test dependencies
     testImplementation("io.quarkus:quarkus-junit5")
